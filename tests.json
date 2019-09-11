@@ -1,0 +1,26 @@
+{
+  "Example.com": {
+    "Example (port 80)": {
+      "address": "www.example.com",
+      "ssl": false,
+      "testString": "This domain is established to be used for illustrative examples in documents."
+    },
+    "Example (port 443)": {
+      "address": "www.example.com",
+      "ssl": true,
+      "testString": "This domain is established to be used for illustrative examples in documents."
+    }
+  },
+  "JHM Web Design": {
+    "Port 80 test": {
+      "address": "www.jhmwebdesign.com",
+      "ssl": false,
+      "testString": "JHM Web Design"
+    },
+    "Port 443 test": {
+      "address": "www.jhmwebdesign.com",
+      "ssl": true,
+      "testString": "JHM Web Design"
+    }
+  }
+}
