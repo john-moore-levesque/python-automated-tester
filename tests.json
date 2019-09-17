@@ -9,18 +9,23 @@
       "address": "www.example.com",
       "ssl": true,
       "testString": "This domain is established to be used for illustrative examples in documents."
+    },
+    "Bad Example (this test will fail on purpose)": {
+      "address": "www.example.com",
+      "ssl": true,
+      "testString": "This string does not appear on the page"
     }
   },
-  "JHM Web Design": {
+  "Some bogus site": {
     "Port 80 test": {
-      "address": "www.jhmwebdesign.com",
+      "address": "www.somebogussite.com",
       "ssl": false,
-      "testString": "JHM Web Design"
+      "testString": "Literally any text"
     },
     "Port 443 test": {
-      "address": "www.jhmwebdesign.com",
+      "address": "www.somebogussite.com",
       "ssl": true,
-      "testString": "JHM Web Design"
+      "testString": "Literally any text"
     }
   }
 }

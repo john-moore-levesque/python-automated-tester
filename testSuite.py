@@ -96,10 +96,7 @@ def interface(**args):
     if args.files:
         for file in args.files:
             testers = createTesters(file)
-            for tester in testers:
-                print("%s" %(tester.name))
-                tester.outputTestResults()
-                print("\n")
+            displayTestResults(testers)
     else:
         return False
 

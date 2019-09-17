@@ -20,4 +20,7 @@ class Tester():
 
     def outputTestResults(self):
         for test, result in self.results.items():
-            print("%s (%s): %s" %(test, result.address, result.testStatus))
+            print("Address: %s" %(result.address))
+            print("Test string: %s" %(result.testString))
+            print("Status: %s" %(result.testStatus))
+            print("\n")
