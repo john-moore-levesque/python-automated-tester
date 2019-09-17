@@ -13,8 +13,9 @@ optional arguments:
 If no argument is provided, the script just exits.
 
 The tests.json file contains examples for the following cases:
-*Testing a site over HTTP
-*Testing a site over HTTPS
-*Testing a site for a string that doesn't exist
-*Testing a non-existent site over HTTP
-*Testing a non-existent site over HTTPS
+
+* Testing a site over HTTP
+* Testing a site over HTTPS
+* Testing a site for a string that doesn't exist
+* Testing a non-existent site over HTTP
+* Testing a non-existent site over HTTPS
